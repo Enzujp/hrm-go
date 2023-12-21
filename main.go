@@ -11,7 +11,7 @@ import (
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/options" // run go mod tidy to install dependencies
+	"go.mongodb.org/mongo-driver/options" 
 )
 
 type MongoInstance struct {
