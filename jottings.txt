@@ -1,0 +1,3 @@
+Using c *fiber.Ctx eliminates the need for using a response, request function
+
+end dictionary objects with a comma 
