@@ -25,7 +25,7 @@ const dbName = "fiber-hrms"
 const mongoURI = "mongodb+srv://jay:jessedavid@menu.08vbsfz.mongodb.net/"
 
 type Employee struct {
-	ID string `json: "id,omitempty" bson:"_id,omitempty"` // golang understands json as id, bson for mongo as _id
+	ID string `json: "id,omitempty" bson:"_id,omitempty"` // golang understands json as id, bson for mongo as _id.gi
 	Name string `json: "name"`
 	Salary float64 `json:"salary" `
 	Age float64 `json: "age"`
